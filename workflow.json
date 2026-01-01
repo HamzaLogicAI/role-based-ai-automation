@@ -1,5 +1,5 @@
 {
-  "name": "Test 1",
+  "name": "Team Member Registration with AI Poem Generator",
   "nodes": [
     {
       "parameters": {
@@ -41,24 +41,24 @@
       ],
       "id": "f7eecd2d-d281-41b3-8691-23977d4c4ed0",
       "name": "Form Submission",
-      "webhookId": "0668efcb-f0f5-4aa2-94dd-7e0a72d900ae"
+      "webhookId": "REPLACE_WITH_YOUR_WEBHOOK_ID"
     },
     {
       "parameters": {
         "operation": "create",
         "base": {
           "__rl": true,
-          "value": "appqTfGjweCs88wXM",
+          "value": "YOUR_AIRTABLE_BASE_ID",
           "mode": "list",
-          "cachedResultName": "N8N",
-          "cachedResultUrl": "https://airtable.com/appqTfGjweCs88wXM"
+          "cachedResultName": "Team Management",
+          "cachedResultUrl": "https://airtable.com/YOUR_AIRTABLE_BASE_ID"
         },
         "table": {
           "__rl": true,
-          "value": "tblVR75SQTSDhv7g1",
+          "value": "YOUR_AIRTABLE_TABLE_ID",
           "mode": "list",
-          "cachedResultName": "Table 1",
-          "cachedResultUrl": "https://airtable.com/appqTfGjweCs88wXM/tblVR75SQTSDhv7g1"
+          "cachedResultName": "Team Members",
+          "cachedResultUrl": "https://airtable.com/YOUR_AIRTABLE_BASE_ID/YOUR_AIRTABLE_TABLE_ID"
         },
         "columns": {
           "mappingMode": "defineBelow",
@@ -136,7 +136,7 @@
       "name": "Update in Airtable",
       "credentials": {
         "airtableTokenApi": {
-          "id": "vv6zpdhgLPpCXGav",
+          "id": "AIRTABLE_CREDENTIAL_ID",
           "name": "Airtable Personal Access Token account"
         }
       }
@@ -229,17 +229,17 @@
         "operation": "update",
         "base": {
           "__rl": true,
-          "value": "appqTfGjweCs88wXM",
+          "value": "YOUR_AIRTABLE_BASE_ID",
           "mode": "list",
-          "cachedResultName": "N8N",
-          "cachedResultUrl": "https://airtable.com/appqTfGjweCs88wXM"
+          "cachedResultName": "Team Management",
+          "cachedResultUrl": "https://airtable.com/YOUR_AIRTABLE_BASE_ID"
         },
         "table": {
           "__rl": true,
-          "value": "tblVR75SQTSDhv7g1",
+          "value": "YOUR_AIRTABLE_TABLE_ID",
           "mode": "list",
-          "cachedResultName": "Table 1",
-          "cachedResultUrl": "https://airtable.com/appqTfGjweCs88wXM/tblVR75SQTSDhv7g1"
+          "cachedResultName": "Team Members",
+          "cachedResultUrl": "https://airtable.com/YOUR_AIRTABLE_BASE_ID/YOUR_AIRTABLE_TABLE_ID"
         },
         "columns": {
           "mappingMode": "defineBelow",
@@ -333,13 +333,13 @@
       "typeVersion": 2.1,
       "position": [
         688,
-        -192
+        -160
       ],
-      "id": "858b4143-7687-4669-ad10-bc21f2d9a9fc",
+      "id": "4aac0bfd-5aa7-4ac7-a0b5-f9e5bb7e3c55",
       "name": "VIdeo Editor Rating",
       "credentials": {
         "airtableTokenApi": {
-          "id": "vv6zpdhgLPpCXGav",
+          "id": "AIRTABLE_CREDENTIAL_ID",
           "name": "Airtable Personal Access Token account"
         }
       }
@@ -349,17 +349,17 @@
         "operation": "update",
         "base": {
           "__rl": true,
-          "value": "appqTfGjweCs88wXM",
+          "value": "YOUR_AIRTABLE_BASE_ID",
           "mode": "list",
-          "cachedResultName": "N8N",
-          "cachedResultUrl": "https://airtable.com/appqTfGjweCs88wXM"
+          "cachedResultName": "Team Management",
+          "cachedResultUrl": "https://airtable.com/YOUR_AIRTABLE_BASE_ID"
         },
         "table": {
           "__rl": true,
-          "value": "tblVR75SQTSDhv7g1",
+          "value": "YOUR_AIRTABLE_TABLE_ID",
           "mode": "list",
-          "cachedResultName": "Table 1",
-          "cachedResultUrl": "https://airtable.com/appqTfGjweCs88wXM/tblVR75SQTSDhv7g1"
+          "cachedResultName": "Team Members",
+          "cachedResultUrl": "https://airtable.com/YOUR_AIRTABLE_BASE_ID/YOUR_AIRTABLE_TABLE_ID"
         },
         "columns": {
           "mappingMode": "defineBelow",
@@ -455,11 +455,11 @@
         688,
         0
       ],
-      "id": "a363179e-89fb-43dc-b7fe-027ce5a7b189",
+      "id": "70df7f92-70ca-41ad-b47d-56ee62d00577",
       "name": "Graphic Designer Rating",
       "credentials": {
         "airtableTokenApi": {
-          "id": "vv6zpdhgLPpCXGav",
+          "id": "AIRTABLE_CREDENTIAL_ID",
           "name": "Airtable Personal Access Token account"
         }
       }
@@ -469,17 +469,17 @@
         "operation": "update",
         "base": {
           "__rl": true,
-          "value": "appqTfGjweCs88wXM",
+          "value": "YOUR_AIRTABLE_BASE_ID",
           "mode": "list",
-          "cachedResultName": "N8N",
-          "cachedResultUrl": "https://airtable.com/appqTfGjweCs88wXM"
+          "cachedResultName": "Team Management",
+          "cachedResultUrl": "https://airtable.com/YOUR_AIRTABLE_BASE_ID"
         },
         "table": {
           "__rl": true,
-          "value": "tblVR75SQTSDhv7g1",
+          "value": "YOUR_AIRTABLE_TABLE_ID",
           "mode": "list",
-          "cachedResultName": "Table 1",
-          "cachedResultUrl": "https://airtable.com/appqTfGjweCs88wXM/tblVR75SQTSDhv7g1"
+          "cachedResultName": "Team Members",
+          "cachedResultUrl": "https://airtable.com/YOUR_AIRTABLE_BASE_ID/YOUR_AIRTABLE_TABLE_ID"
         },
         "columns": {
           "mappingMode": "defineBelow",
@@ -573,13 +573,13 @@
       "typeVersion": 2.1,
       "position": [
         688,
-        192
+        160
       ],
-      "id": "b5a521b8-9df6-4bd4-abde-0b84591e1bfc",
+      "id": "50b6d07b-b13c-4c1f-8d9f-8f9bf1c4e0c7",
       "name": "AI Manager Rating",
       "credentials": {
         "airtableTokenApi": {
-          "id": "vv6zpdhgLPpCXGav",
+          "id": "AIRTABLE_CREDENTIAL_ID",
           "name": "Airtable Personal Access Token account"
         }
       }
@@ -613,7 +613,7 @@
       "name": "Google Gemini Chat Model",
       "credentials": {
         "googlePalmApi": {
-          "id": "eSfN4v47GjZcSZV1",
+          "id": "GOOGLE_GEMINI_CREDENTIAL_ID",
           "name": "Google Gemini(PaLM) Api account"
         }
       }
@@ -623,17 +623,17 @@
         "operation": "update",
         "base": {
           "__rl": true,
-          "value": "appqTfGjweCs88wXM",
+          "value": "YOUR_AIRTABLE_BASE_ID",
           "mode": "list",
-          "cachedResultName": "N8N",
-          "cachedResultUrl": "https://airtable.com/appqTfGjweCs88wXM"
+          "cachedResultName": "Team Management",
+          "cachedResultUrl": "https://airtable.com/YOUR_AIRTABLE_BASE_ID"
         },
         "table": {
           "__rl": true,
-          "value": "tblVR75SQTSDhv7g1",
+          "value": "YOUR_AIRTABLE_TABLE_ID",
           "mode": "list",
-          "cachedResultName": "Table 1",
-          "cachedResultUrl": "https://airtable.com/appqTfGjweCs88wXM/tblVR75SQTSDhv7g1"
+          "cachedResultName": "Team Members",
+          "cachedResultUrl": "https://airtable.com/YOUR_AIRTABLE_BASE_ID/YOUR_AIRTABLE_TABLE_ID"
         },
         "columns": {
           "mappingMode": "defineBelow",
@@ -744,7 +744,7 @@
       "name": "Update record",
       "credentials": {
         "airtableTokenApi": {
-          "id": "vv6zpdhgLPpCXGav",
+          "id": "AIRTABLE_CREDENTIAL_ID",
           "name": "Airtable Personal Access Token account"
         }
       }
@@ -859,17 +859,17 @@
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "a83d9bb5-165e-441d-9191-3a74c323d74e",
+  "versionId": "REPLACE_WITH_NEW_VERSION_ID",
   "meta": {
     "templateCredsSetupCompleted": true,
-    "instanceId": "91f5b141d6203bb02dcdde044198e973daa3fdf89a8b9534e23ec9bf316badd6"
+    "instanceId": "REPLACE_WITH_YOUR_INSTANCE_ID"
   },
-  "id": "qBQSh6RywlglSCXv",
+  "id": "REPLACE_WITH_NEW_WORKFLOW_ID",
   "tags": [
     {
-      "updatedAt": "2025-12-14T04:32:33.360Z",
-      "createdAt": "2025-12-14T04:32:33.360Z",
-      "id": "kJdOz1Jw77G3c05X",
+      "updatedAt": "REPLACE_WITH_DATE",
+      "createdAt": "REPLACE_WITH_DATE",
+      "id": "REPLACE_WITH_TAG_ID",
       "name": "Agents"
     }
   ]
